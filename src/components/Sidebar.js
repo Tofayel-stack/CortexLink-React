@@ -6,14 +6,14 @@ function Sidebar() {
     return (
         <Wrappaer>
             <aside className="sidebar__wrapper">
-                <div className="h-24">
+                <div className="h-20">
                     <img className="w-full" src="../../assets/logo.png" alt="logo" />
                 </div>
 
                 <div className="pl-6">
                     <ul>
-                        <NavLink to="/">
-                            <div className="flex flex-row items-center space-x-3 home__menu__wrapper pl-4 py-3 my-2">
+                        <NavLink to="/" activeClassName="menu_active">
+                            <div className="flex flex-row items-center space-x-3 home__menu__wrapper pl-4 py-3 my-2" >
                                 <i className="fas fa-home home__icon"></i>
                                 <span className="text-white home__menu__text">Home</span>
                             </div>
@@ -83,6 +83,10 @@ const Wrappaer = styled.div`
         .home__menu__text{
             color:#1F155E;
         }
+    }
+
+    .menu_active{
+       background-color: #00cf5d;
     }
 }
 
