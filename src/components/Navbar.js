@@ -5,8 +5,6 @@ function Navbar() {
     return (
         <Wrapper>
             <header className="header py-3">
-                {/* <div className="flex flex-row-reverse"> */}
-
                 <div className="flex flex-row-reverse items-center">
                     <div className="flex flex-row items-center pr-9 space-x-4">
                         <i className="header__icons bg-white p-3 rounded-full fas fa-user cursor-pointer"></i>
@@ -25,7 +23,6 @@ function Navbar() {
                         <input className="px-4 py-2 pl-9 rounded-full" type="text" placeholder="Searchg here...." />
                     </div>
                 </div>
-                {/* </div> */}
             </header>
         </Wrapper>
     );

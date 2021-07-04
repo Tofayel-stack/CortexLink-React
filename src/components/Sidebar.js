@@ -33,7 +33,7 @@ function Sidebar() {
                             </div>
                         </NavLink>
 
-                        <NavLink to="/course-reports">
+                        <NavLink to="/mycourses">
                             <div className="flex flex-row items-center space-x-3 home__menu__wrapper pl-4 py-3 my-2">
                                 <i className="far fa-file-alt home__icon"></i>
                                 <span className="text-white home__menu__text">My Course</span>
@@ -66,6 +66,8 @@ const Wrappaer = styled.div`
 .sidebar__wrapper{
     background-color:#1F155E;
     height:100vh;
+    width:250px;
+    position: fixed;
     .home__menu__wrapper{
         border-top-left-radius:50px;
         border-bottom-left-radius:50px;

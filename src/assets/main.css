@@ -522,7 +522,8 @@ iframe,
 embed,
 object {
   display: block; /* 1 */
-  vertical-align: middle; /* 2 */
+   vertical-align: middle;
+   /* 2 */
 }
 
 /**
@@ -29816,7 +29817,7 @@ video {
 }
 
 body{
-  background:#c4c5c9;
+  background:#F1F3F9;
 }
 
 @media (min-width: 640px) {

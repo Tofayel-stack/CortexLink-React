@@ -1,0 +1,53 @@
+{
+    "myCourse": [
+        {
+            "id":1,
+            "image":"../../assets/mycourse1.jpg",
+            "title":"Introduction to Fraction: Concepts,Methods,Formulae",
+            "time":"Duration: 12 months",
+            "studentsNumber":"+30 students",
+            "category":"Fraction"
+        },
+         {
+            "id":2,
+            "image":"../../assets/mycourse2.jpg",
+            "title":"Introduction to Fraction: Concepts,Methods,Formulae",
+            "time":"Duration: 12 months",
+            "studentsNumber":"+30 students",
+            "category":"Counting"
+        },
+         {
+            "id":3,
+            "image":"../../assets/mycourse3.jpg",
+            "title":"Introduction to Fraction: Concepts,Methods,Formulae",
+            "time":"Duration: 12 months",
+            "studentsNumber":"+30 students",
+            "category":"Algebra"
+        },
+         {
+            "id":4,
+            "image":"../../assets/mycourse4.jpg",
+            "title":"Introduction to Fraction: Concepts,Methods,Formulae",
+            "time":"Duration: 12 months",
+            "studentsNumber":"+30 students",
+            "category":"Arithmetic"
+        },
+         {
+            "id":5,
+            "image":"../../assets/mycourse5.jpg",
+            "title":"Introduction to Fraction: Concepts,Methods,Formulae",
+            "time":"Duration: 12 months",
+            "studentsNumber":"+30 students",
+            "category":"Trigonometic"
+        },
+         {
+            "id":6,
+            "image":"../../assets/mycourse6.jpg",
+            "title":"Introduction to Fraction: Concepts,Methods,Formulae",
+            "time":"Duration: 12 months",
+            "studentsNumber":"+30 students",
+            "category":"Fraction"
+        }
+
+    ]
+}
