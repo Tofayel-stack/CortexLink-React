@@ -5,6 +5,7 @@ import AddIcon from '@material-ui/icons/Add';
 import courseData from '../data/cortexlink.json';
 import MyCourseItem from '../components/MyCourseItem'
 import Footer from '../components/Footer';
+import { NavLink } from 'react-router-dom';
 
 function MyCourse() {
 
@@ -17,6 +18,7 @@ function MyCourse() {
 
         setData(filtering)
     }
+    
     return (
         <>
             <Wrapper>
@@ -39,13 +41,15 @@ function MyCourse() {
 
                     {/* my course  */}
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-10 pt-12">
+                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 gap-10 pt-12">
                         {data.map((courseitem, index) => {
                             return (
+                                <NavLink to={`/coursedetails/${courseitem.id}`}>
                                     <MyCourseItem
                                         key={index}
                                         {...courseitem}
                                     />
+                                </NavLink>
                             )
                         })}
                     </div>

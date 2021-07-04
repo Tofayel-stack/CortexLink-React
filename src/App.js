@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Coursereport from './screens/Coursereport';
 import MyCourse from './screens/MyCourse';
 import Home from './screens/Home';
+import CourseDetails from './screens/CourseDetails';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 
@@ -28,6 +29,7 @@ function App() {
                             <Route exact path="/mycourses">
                                 {<MyCourse />}
                             </Route>
+                            <Route exact path="/coursedetails/:id" children={<CourseDetails/>}></Route>
                         </Switch>
                     </div>
                 </div>

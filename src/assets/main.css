@@ -522,8 +522,7 @@ iframe,
 embed,
 object {
   display: block; /* 1 */
-   vertical-align: middle;
-   /* 2 */
+  vertical-align: middle; /* 2 */
 }
 
 /**
@@ -29816,9 +29815,9 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body{
-  background:#F1F3F9;
-}
+/* body{
+    background:#c4c5c9;
+} */
 
 @media (min-width: 640px) {
   .sm\:container {
