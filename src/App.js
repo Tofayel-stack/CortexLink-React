@@ -1,10 +1,11 @@
-import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Coursereport from './screens/Coursereport'
-import MyCourse from './screens/MyCourse'
-import Home from './screens/Home'
-import Sidebar from './components/Sidebar'
-import Navbar from './components/Navbar'
+import React from 'react';
+import "./assets/index.css";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Coursereport from './screens/Coursereport';
+import MyCourse from './screens/MyCourse';
+import Home from './screens/Home';
+import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
 
 function App() {
     return (
